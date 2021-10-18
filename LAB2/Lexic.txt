@@ -1,0 +1,42 @@
+        1. Special symbols:
+            1. Operators:
+                1. Arithmetic: +,-,*,/,%
+                2. Assignment: =
+                3. Bitwise logic: ~, &, |, ^
+                4. Bitwise shifts: << , >>
+                5. Boolean logic: !, &&, ||
+                6. Equality testing: == , !=
+                7. Increment and decrement: ++ , —
+                8. Order relations: < , <= , > , >=
+            2. Separators: [ ] { } ; :
+            3. Reserved words
+                    1. Array
+                    2. Char
+                    3. Const
+                    4. Else
+                    5. If -> Cond
+                    6. Int
+                    7. Make
+                    8. Write
+                    9. Read
+                    10. String
+                    11. Switch
+                    12. Double
+                    13. For
+                    14. Do
+                    15. While
+        2. Identifiers:
+            1. A sequence of letters and digits, such that the first character is a letter; the rule is:
+            2. Identifier = [“_”]letter[{letter|digit}]
+            3. letter=“A” | “B” | … | “Z” | “a” | … | “z”
+            4. non_zero_digit = “1” | … | “9”
+            5. zero_digit = “0”
+            6. Sign = [“+” | “-“ ]
+            7. Comma = “,”
+        3. Constants:
+            1. Integer:
+                1. Integer = zero_digit | sign digit {(zero_digit | digit )}
+            2. Character:
+                1. character=‘letter’ | ‘digit’
+            3. Double:
+                1. Double = sign {digit} [comma {digit}]
