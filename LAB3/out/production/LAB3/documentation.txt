@@ -1,0 +1,5 @@
+https://github.com/manati123/FLCD/tree/feature/Lab3
+For my Symbol Table I chose to implement 3 separate Hash Tables, one for identifiers, one for int constants and one for string constants.
+The hashTable is implemented over a hashmap.
+findbypair will return an object of type T (the class is generic), getting the item from the position on the list at the position in the map
+contains returns true or false if the element that we want to add is not existent

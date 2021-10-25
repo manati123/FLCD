@@ -7,7 +7,7 @@ public class SymbolTable {
 
     public Pair<Integer, String> addIdentifier(String name) throws Exception {
         this.identifierHashTable.add(name);
-        return new Pair<Integer,String>(name.hashCode(),name);
+        return new Pair<>(name.hashCode(), name);
     }
 
     public Pair <Integer, Integer> addIntConstant(Integer constant) throws Exception {
