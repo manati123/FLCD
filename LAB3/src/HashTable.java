@@ -43,10 +43,6 @@ public class HashTable<T> {
             posInList = this.buckets.get(posInBucket).size();
         if(this.contains(element))
             return new Pair<>(posInBucket,posInList);//return position!
-
-
-
-
         this.buckets.get(posInBucket).add(posInList,element);
         return new Pair<Integer,Integer>(posInBucket,posInList);
     }
