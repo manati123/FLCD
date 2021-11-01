@@ -1,0 +1,8 @@
+make int a;
+make int b;
+make int c;
+make int max;
+cond ( a > b ) then max = a;
+else max = b;
+cond ( max > c ) then max = c;
+write ( max ) ;
